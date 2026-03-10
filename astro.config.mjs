@@ -3,8 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://moshkingcode.github.io",
-  output: "static",
-
+  base: "/MoshkingCode.github.io/",
   vite: {
     plugins: [tailwindcss()],
   },
