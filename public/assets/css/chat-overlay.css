@@ -4,7 +4,9 @@
   width: 56px; height: 56px; border-radius: 999px;
   border: none; box-shadow: 0 6px 20px rgba(0,0,0,.15);
   background: #2962FF; color: #fff; cursor: pointer; z-index: 9999;
-  font: 600 18px/1 system-ui, -apple-system, "Segoe UI", Inter, Arial;
+  font-size: 18px;
+  line-height: 1;
+  font-family: inherit;
 }
 #tar-chat-toggle:hover { filter: brightness(1.07); }
 
@@ -40,7 +42,9 @@
 .tar-row.user{ justify-content: flex-end; }
 .tar-bubble{
   max-width: 82%; padding: 10px 12px; border-radius: 14px;
-  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Inter, Arial;
+  font-size: 14px;
+  line-height: 1.45;
+  font-family: inherit;
   white-space: pre-wrap; word-wrap: break-word;
 }
 .tar-bubble.assist{ background: #CFE5FF; color:#0f1720; }
@@ -52,7 +56,9 @@
 .tar-options{ display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
 .tar-pill{
   border:1px solid #D7DCE3; background:#fff; padding:8px 12px; border-radius:999px;
-  font: 12px/1.2 system-ui, -apple-system, "Segoe UI", Inter, Arial; cursor:pointer;
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: inherit;
 }
 .tar-pill:hover{ border-color:#B7CEFF; background:#F9FAFD; }
 .tar-list{ display:flex; flex-direction:column; gap:8px; margin-top:8px; }
@@ -71,7 +77,9 @@
 #tar-chat-input textarea{
   flex:1; height: 100%; box-sizing: border-box;
   resize:none; border:1px solid #e5e7eb; border-radius:10px; padding:10px; outline:none;
-  font: 14px/1.4 system-ui, -apple-system, "Segoe UI", Inter, Arial;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: inherit;
   min-height: 0; overflow:auto;
 }
 #tar-chat-input button{
