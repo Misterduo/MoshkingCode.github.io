@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "export:data": "node scripts/export-config.mjs",
+    "export:data": "tsx scripts/export-config.mjs",
     "build": "npm run export:data && astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -13,5 +13,8 @@
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.12.3",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
   }
 }
